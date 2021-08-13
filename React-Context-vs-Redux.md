@@ -4,7 +4,7 @@ React မှာ State Management အတွက် Redux ကိုများသ�
 
 Props Drilling ဆိုလို့ပြောရရင် Context ကိုမသုံးပဲ  Component Composition သုံးပီးရေးလို့ရတယ်ဆိုပေမဲ့ ကိုယ့်ရဲ့Nested Child Component တွေအရမ်းများရင်ကျလဲအဆင်မပြေပြန်ဘူး။
 
-Component တစ်ခုကို Provider တစ်ခုနဲ့ wrap ပီးသူ့ Component နဲ့သုံးသွားလို့ရတယ်။အဲ့လို အားသာချက်ရှိနေတာကိုဘာလို့ State Management အတွက် Redux ကိုသုံးနေသေးလဲဆိုပီးမေးစရာရှိလာတယ်။ အောက်က example ကိုကြည့်လိုက်ရအောင်
+Component တစ်ခုကို Context Provider တစ်ခုနဲ့ Parent wrap ပီးသူ့သုံးချင်တဲ့ Component ကို useContext Hook နဲ့သုံးသွားလို့ရတယ်။အဲ့လို အားသာချက်ရှိနေတာကိုဘာလို့ State Management အတွက် Redux ကိုသုံးနေသေးလဲဆိုပီးမေးစရာရှိလာတယ်။ အောက်က example ကိုကြည့်လိုက်ရအောင်
 
 ```react
 return (
