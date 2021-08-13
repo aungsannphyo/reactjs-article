@@ -2,14 +2,14 @@
 
 React မှာ State Management အတွက် Redux ကိုများသောအားဖြင့်သုံးကြတယ်။ အဲ့နေရာမှာ မေးခွန်းရှိလာပီ React Version 16.3.0 မှာစတင်မိတ်ဆက်ခဲ့တဲ့ Context Api ကိုသုံးမရဘူးလားပေါ့။ Context ကလဲ State  ကို Provider မှာ ထားပီး  Component Tree တစ်ခုလုံးကို အပေါ်ကနေစပီးအောက်ဆုံးထိ Context Api နဲ့သယ်သွားလို့ရတဲ့အတွက် Props Chains or Props Drilling  မဖစ်တဲ့အားသာရှိတယ် ပြောရရင် State Management အနေနဲ့သုံးလို့ရတယ်။ 
 
-Props Drilling ဆိုလို့ပြောရရင် Context ကိုမသုံးပဲ  Component Composition သုံးပိးရေးလို့ရတယ်ဆိုပေမဲ့ ကိုယ့်ရဲ့Nested Child Component တွေအရမ်းများရင်ကျလဲအဆင်မပြေပြန်ဘူး။
+Props Drilling ဆိုလို့ပြောရရင် Context ကိုမသုံးပဲ  Component Composition သုံးပီးရေးလို့ရတယ်ဆိုပေမဲ့ ကိုယ့်ရဲ့Nested Child Component တွေအရမ်းများရင်ကျလဲအဆင်မပြေပြန်ဘူး။
 
 Component တစ်ခုကို Provider တစ်ခုနဲ့ wrap ပီးသူ့ Component နဲ့သုံးသွားလို့ရတယ်။အဲ့လို အားသာချက်ရှိနေတာကိုဘာလို့ State Management အတွက် Redux ကိုသုံးနေသေးလဲဆိုပီးမေးစရာရှိလာတယ်။ အောက်က example ကိုကြည့်လိုက်ရအောင်
 
 ```react
 return (
 	<AuthContextProvider>
-    	<ThemeContextProvider>
+    	   <ThemeContextProvider>
         	<LanguageContextProvider>
                 <GetAllUserProvider>
                 	<UpdateUserProvider>
