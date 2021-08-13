@@ -1,4 +1,4 @@
-# React Context vs Redux
+# React Context Api vs Redux
 
 React မှာ State Management အတွက် Redux ကိုများသောအားဖြင့်သုံးကြတယ်။ အဲ့နေရာမှာ မေးခွန်းရှိလာပီ React Version 16.3.0 မှာစတင်မိတ်ဆက်ခဲ့တဲ့ Context Api ကိုသုံးမရဘူးလားပေါ့။ Context ကလဲ State  ကို Provider မှာ ထားပီး  Component Tree တစ်ခုလုံးကို အပေါ်ကနေစပီးအောက်ဆုံးထိ Context Api နဲ့သယ်သွားလို့ရတဲ့အတွက် Props Chains or Props Drilling  မဖစ်တဲ့အားသာရှိတယ် ပြောရရင် State Management အနေနဲ့သုံးလို့ရတယ်။ 
 
