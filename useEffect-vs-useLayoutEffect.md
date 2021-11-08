@@ -1,6 +1,6 @@
 ## useEffect vs useLayoutEffect
 
-```react
+```javascript
 useEffect(() => {
   // do side effects
   return () => /* cleanup */
